@@ -53,5 +53,33 @@ namespace Windows8CampPhoneApplication
             wbt.Uri = new Uri("http://www.lalaninja.com.au/2012/03/19/windows-8-developer-camps-australia/");
             wbt.Show();
         }
+
+        private void ConsumerPreviewHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wbt = new WebBrowserTask();
+            wbt.Uri = new Uri("http://preview.windows.com");
+            wbt.Show();
+        }
+
+        private void DevCentreHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wbt = new WebBrowserTask();
+            wbt.Uri = new Uri("http://msdn.microsoft.com/windows/apps");
+            wbt.Show();
+        }
+
+        private void OnlineSDKSamplesHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wbt = new WebBrowserTask();
+            wbt.Uri = new Uri("http://code.msdn.microsoft.com/windowsapps/");
+            wbt.Show();
+        }
+
+        private void DownloadSDKSamplesHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wbt = new WebBrowserTask();
+            wbt.Uri = new Uri("http://code.msdn.microsoft.com/windowsapps/Windows-8-Modern-Style-App-Samples");
+            wbt.Show();
+        }
     }
 }
