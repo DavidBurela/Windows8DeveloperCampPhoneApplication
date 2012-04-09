@@ -33,5 +33,10 @@ namespace Windows8CampPhoneApplication
                 App.ViewModel.LoadData();
             }
         }
+
+        private void ApplicationBarMenuItem_Click(object sender, EventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/YourLastAboutDialog;component/AboutPage.xaml", UriKind.Relative));
+        }
     }
 }
