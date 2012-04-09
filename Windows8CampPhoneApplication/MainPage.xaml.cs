@@ -10,6 +10,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
+using Microsoft.Phone.Tasks;
 
 namespace Windows8CampPhoneApplication
 {
@@ -37,6 +38,13 @@ namespace Windows8CampPhoneApplication
         private void ApplicationBarMenuItem_Click(object sender, EventArgs e)
         {
             NavigationService.Navigate(new Uri("/YourLastAboutDialog;component/AboutPage.xaml", UriKind.Relative));
+        }
+
+        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wbt = new WebBrowserTask();
+            wbt.Uri = new Uri("http://twitter.com/XDDN_AU");
+            wbt.Show();
         }
     }
 }

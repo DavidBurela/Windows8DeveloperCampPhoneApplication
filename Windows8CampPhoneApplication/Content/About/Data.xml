@@ -48,7 +48,7 @@
               Label="Blog:" />
         <Link NavigateUri="mailto:David.Burela+Win8Camp@gmail.com"
               Content="David.Burela+Win8Camp@gmail.com"
-              Label="Support:" />
+              Label="Help:" />
       </Links>
     </MainItem>
     <!-- For each additional pivot item, add a separate Item entry. Ideas for items are: license, tutorial or help, version history, show room for other apps from you etc. -->
