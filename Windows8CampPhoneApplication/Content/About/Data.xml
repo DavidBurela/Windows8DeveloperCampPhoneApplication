@@ -43,9 +43,9 @@
         <Link NavigateUri="http://about.me/DavidBurela"
               Content="about.me/DavidBurela"
               Label="About me:" />
-        <Link NavigateUri="http://DavidBurela.Wordpress.com"
+        <!--<Link NavigateUri="http://DavidBurela.Wordpress.com"
               Content="DavidBurela.Wordpress.com"
-              Label="Blog:" />
+              Label="Blog:" />-->
         <Link NavigateUri="mailto:David.Burela+Win8Camp@gmail.com"
               Content="David.Burela+Win8Camp@gmail.com"
               Label="Help:" />
@@ -58,7 +58,12 @@
     <Item Title="history"
           Type="text">
       1.0.0.0
-      This is the initial public version.
+      Initial public release.
+      Includes:
+      -Daily schedule
+      -Dates
+      -XDNN information
+      -Links to online resources to get started
     </Item>
   </Items>
 </About>
