@@ -62,17 +62,27 @@
 
             <!--Pivot item two-->
             <controls:PivotItem Header="dates">
-                <!--Triple line list no text wrapping-->
-                <ListBox x:Name="SecondListBox" Margin="0,0,-12,0" ItemsSource="{Binding Items}">
-                    <ListBox.ItemTemplate>
-                        <DataTemplate>
-                            <StackPanel Margin="0,0,0,17">
-                                <TextBlock Text="{Binding LineOne}" TextWrapping="NoWrap" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}"/>
-                                <TextBlock Text="{Binding LineThree}" TextWrapping="NoWrap" Margin="12,-6,0,0" Style="{StaticResource PhoneTextSubtleStyle}"/>
-                            </StackPanel>
-                        </DataTemplate>
-                    </ListBox.ItemTemplate>
-                </ListBox>
+                <ScrollViewer>
+                    <StackPanel>
+                        <HyperlinkButton Click="RegisterHyperlinkButton_Click">Click here to register</HyperlinkButton>
+                        <TextBlock Style="{StaticResource PhoneTextGroupHeaderStyle}">Melbourne</TextBlock>
+                        <TextBlock>Saturday, 31st March 2012</TextBlock>
+                        <TextBlock Style="{StaticResource PhoneTextGroupHeaderStyle}">Sydney</TextBlock>
+                        <TextBlock>Saturday, 14th April 2012</TextBlock>
+                        <TextBlock Style="{StaticResource PhoneTextGroupHeaderStyle}">Brisbane</TextBlock>
+                        <TextBlock>Saturday, 28th April 2012</TextBlock>
+                        <TextBlock Style="{StaticResource PhoneTextGroupHeaderStyle}">Hobart</TextBlock>
+                        <TextBlock>Saturday, 12th May 2012</TextBlock>
+                        <TextBlock Style="{StaticResource PhoneTextGroupHeaderStyle}">Canberra</TextBlock>
+                        <TextBlock>Saturday, 19th May 2012</TextBlock>
+                        <TextBlock Style="{StaticResource PhoneTextGroupHeaderStyle}">Darwin</TextBlock>
+                        <TextBlock>Saturday, 26th May 2012</TextBlock>
+                        <TextBlock Style="{StaticResource PhoneTextGroupHeaderStyle}">Adelaide</TextBlock>
+                        <TextBlock>Saturday, 2nd June 2012</TextBlock>
+                        <TextBlock Style="{StaticResource PhoneTextGroupHeaderStyle}">Perth</TextBlock>
+                        <TextBlock>Saturday, 16th June 2012</TextBlock>
+                    </StackPanel>
+                </ScrollViewer>
             </controls:PivotItem>
 
 
@@ -90,7 +100,7 @@
                         <TextBlock>
                             Twitter:
                         </TextBlock>
-                        <HyperlinkButton Content="@XDDN_AU" Click="HyperlinkButton_Click"></HyperlinkButton>
+                        <HyperlinkButton Content="@XDDN_AU" Click="XDDNHyperlinkButton_Click"></HyperlinkButton>
                     </StackPanel>
                 </StackPanel>
             </controls:PivotItem>

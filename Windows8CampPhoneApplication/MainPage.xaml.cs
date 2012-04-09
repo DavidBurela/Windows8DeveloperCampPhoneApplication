@@ -40,10 +40,17 @@ namespace Windows8CampPhoneApplication
             NavigationService.Navigate(new Uri("/YourLastAboutDialog;component/AboutPage.xaml", UriKind.Relative));
         }
 
-        private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
+        private void XDDNHyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
             var wbt = new WebBrowserTask();
             wbt.Uri = new Uri("http://twitter.com/XDDN_AU");
+            wbt.Show();
+        }
+
+        private void RegisterHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            var wbt = new WebBrowserTask();
+            wbt.Uri = new Uri("http://www.lalaninja.com.au/2012/03/19/windows-8-developer-camps-australia/");
             wbt.Show();
         }
     }
