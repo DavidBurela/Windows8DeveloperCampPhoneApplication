@@ -47,6 +47,9 @@
         <!--<Link NavigateUri="http://DavidBurela.Wordpress.com"
               Content="DavidBurela.Wordpress.com"
               Label="Blog:" />-->
+        <Link NavigateUri="https://github.com/DavidBurela/Windows8DeveloperCampPhoneApplication"
+              Content="github.com/DavidBurela/Windows8DeveloperCampPhoneApplication"
+              Label="Source code:" />
         <Link NavigateUri="mailto:David.Burela+Win8Camp@gmail.com"
               Content="David.Burela+Win8Camp@gmail.com"
               Label="Help:" />
@@ -60,6 +63,7 @@
           Type="text">
       1.1
       -Added additional links to XDDN user groups around Australia
+      -Added links to source code of the application
 
       1.0
       Initial public release.

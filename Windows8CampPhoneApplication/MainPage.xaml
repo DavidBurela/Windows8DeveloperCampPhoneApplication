@@ -144,6 +144,10 @@
 
                         <TextBlock>SDK Samples (downloadable pack)</TextBlock>
                         <HyperlinkButton HorizontalAlignment="Left" Click="DownloadSDKSamplesHyperlinkButton_Click" >code.msdn.microsoft.com/windowsapps/...</HyperlinkButton>
+
+
+                        <TextBlock>Source code for this windows phone application</TextBlock>
+                        <HyperlinkButton HorizontalAlignment="Left" Click="GithubPhoneSourceHyperlinkButton_Click" >github.com/DavidBurela/Windows8Devel...</HyperlinkButton>
                     </StackPanel>
                 </ScrollViewer>
             </controls:PivotItem>

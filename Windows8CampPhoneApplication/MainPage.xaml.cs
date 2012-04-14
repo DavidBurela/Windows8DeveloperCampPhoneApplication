@@ -40,6 +40,12 @@ namespace Windows8CampPhoneApplication
             NavigationService.Navigate(new Uri("/YourLastAboutDialog;component/AboutPage.xaml", UriKind.Relative));
         }
 
+        private void RegisterHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigateToWebpage("http://www.lalaninja.com.au/2012/03/19/windows-8-developer-camps-australia/");
+        }
+
+        //########## XDDN pivot ##########
         private void XDDNTwitterHyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
             NavigateToWebpage("http://twitter.com/XDDN_AU");
@@ -60,11 +66,7 @@ namespace Windows8CampPhoneApplication
             NavigateToWebpage("http://www.meetup.com/Perth-XDDN/");
         }
 
-        private void RegisterHyperlinkButton_Click(object sender, RoutedEventArgs e)
-        {
-            NavigateToWebpage("http://www.lalaninja.com.au/2012/03/19/windows-8-developer-camps-australia/");
-        }
-
+        // ######## Online resources pivot ########
         private void ConsumerPreviewHyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
             NavigateToWebpage("http://preview.windows.com");
@@ -85,6 +87,11 @@ namespace Windows8CampPhoneApplication
             NavigateToWebpage("http://code.msdn.microsoft.com/windowsapps/Windows-8-Modern-Style-App-Samples");
         }
 
+        private void GithubPhoneSourceHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigateToWebpage("https://github.com/DavidBurela/Windows8DeveloperCampPhoneApplication");
+        }
+        
         private void NavigateToWebpage(string url)
         {
             var wbt = new WebBrowserTask();
