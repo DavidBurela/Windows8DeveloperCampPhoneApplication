@@ -40,45 +40,55 @@ namespace Windows8CampPhoneApplication
             NavigationService.Navigate(new Uri("/YourLastAboutDialog;component/AboutPage.xaml", UriKind.Relative));
         }
 
-        private void XDDNHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        private void XDDNTwitterHyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
-            var wbt = new WebBrowserTask();
-            wbt.Uri = new Uri("http://twitter.com/XDDN_AU");
-            wbt.Show();
+            NavigateToWebpage("http://twitter.com/XDDN_AU");
+        }
+
+        private void XDDNMelbourneHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigateToWebpage("http://www.meetup.com/Melbourne-XDDN/");
+        }
+
+        private void XDDNSydneyHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigateToWebpage("http://www.meetup.com/Sydney-XDDN/");
+        }
+
+        private void XDDNPerthHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigateToWebpage("http://www.meetup.com/Perth-XDDN/");
         }
 
         private void RegisterHyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
-            var wbt = new WebBrowserTask();
-            wbt.Uri = new Uri("http://www.lalaninja.com.au/2012/03/19/windows-8-developer-camps-australia/");
-            wbt.Show();
+            NavigateToWebpage("http://www.lalaninja.com.au/2012/03/19/windows-8-developer-camps-australia/");
         }
 
         private void ConsumerPreviewHyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
-            var wbt = new WebBrowserTask();
-            wbt.Uri = new Uri("http://preview.windows.com");
-            wbt.Show();
+            NavigateToWebpage("http://preview.windows.com");
         }
 
         private void DevCentreHyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
-            var wbt = new WebBrowserTask();
-            wbt.Uri = new Uri("http://msdn.microsoft.com/windows/apps");
-            wbt.Show();
+            NavigateToWebpage("http://msdn.microsoft.com/windows/apps");
         }
 
         private void OnlineSDKSamplesHyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
-            var wbt = new WebBrowserTask();
-            wbt.Uri = new Uri("http://code.msdn.microsoft.com/windowsapps/");
-            wbt.Show();
+            NavigateToWebpage("http://code.msdn.microsoft.com/windowsapps/");
         }
 
         private void DownloadSDKSamplesHyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
+            NavigateToWebpage("http://code.msdn.microsoft.com/windowsapps/Windows-8-Modern-Style-App-Samples");
+        }
+
+        private void NavigateToWebpage(string url)
+        {
             var wbt = new WebBrowserTask();
-            wbt.Uri = new Uri("http://code.msdn.microsoft.com/windowsapps/Windows-8-Modern-Style-App-Samples");
+            wbt.Uri = new Uri(url);
             wbt.Show();
         }
     }

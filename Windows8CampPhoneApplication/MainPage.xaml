@@ -97,11 +97,28 @@
                         There are monthly meetings running in Melbourne, Sydney and Perth. If you are interested in learning more about Windows 8 development and style guides, then please attend the meetings.
                     </TextBlock>
 
+                    <!--Twitter-->
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock>
-                            Twitter:
-                        </TextBlock>
-                        <HyperlinkButton Content="@XDDN_AU" Click="XDDNHyperlinkButton_Click"></HyperlinkButton>
+                        <TextBlock Width="105">Twitter:</TextBlock>
+                        <HyperlinkButton Content="@XDDN_AU" Click="XDDNTwitterHyperlinkButton_Click"></HyperlinkButton>
+                    </StackPanel>
+
+                    <!--Melbourne-->
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="105">Melbourne:</TextBlock>
+                        <HyperlinkButton Content="Meetup.com/Melbourne-XDDN" Click="XDDNMelbourneHyperlinkButton_Click"></HyperlinkButton>
+                    </StackPanel>
+                    
+                    <!--Sydney-->
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="105">Sydney:</TextBlock>
+                        <HyperlinkButton Content="Meetup.com/Sydney-XDDN" Click="XDDNSydneyHyperlinkButton_Click"></HyperlinkButton>
+                    </StackPanel>
+                    
+                    <!--Perth-->
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Width="105">Perth:</TextBlock>
+                        <HyperlinkButton Content="Meetup.com/Perth-XDDN" Click="XDDNPerthHyperlinkButton_Click"></HyperlinkButton>
                     </StackPanel>
                 </StackPanel>
             </controls:PivotItem>
