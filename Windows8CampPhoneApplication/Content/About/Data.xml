@@ -19,6 +19,7 @@
   <!-- The AdditionalNotes attribute has no equivalent in the WMAppManifest.xml; you can only define its content here -->
   <!-- Explicitly set any of the attributes to an empty string to remove it (including its label) from the dialog -->
   <App Author="David Burela"
+       Version="1.1"
        Publisher=""
        AdditionalNotes="All copyright is held by their respective owners." />
   <Items>
@@ -57,7 +58,10 @@
     <!-- Supported types are "text" and "xaml", where text is nicely formatted automatically, and XAML is handled by the built-in XamlReader -->
     <Item Title="history"
           Type="text">
-      1.0.0.0
+      1.1
+      -Added additional links to XDDN user groups around Australia
+
+      1.0
       Initial public release.
       Includes:
       -Daily schedule
