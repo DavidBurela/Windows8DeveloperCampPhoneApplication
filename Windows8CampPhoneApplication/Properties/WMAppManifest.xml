@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.1">
-  <App xmlns="" ProductID="{f4c411ff-f1c8-48a5-aedc-7ad20191afbc}" Title="Win8 Dev camp" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Windows8CampPhoneApplication author" Description="Sample description" Publisher="Windows8CampPhoneApplication">
+  <App xmlns="" ProductID="{f4c411ff-f1c8-48a5-aedc-7ad20191afbc}" Title="Windows 8 camp" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Windows8CampPhoneApplication author" Description="Sample description" Publisher="Windows8CampPhoneApplication">
     <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_GAMERSERVICES" />
