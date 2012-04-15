@@ -87,6 +87,16 @@ namespace Windows8CampPhoneApplication
             NavigateToWebpage("http://code.msdn.microsoft.com/windowsapps/Windows-8-Modern-Style-App-Samples");
         }
 
+        private void GithubDemoTilesHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigateToWebpage("https://github.com/DavidBurela/Win8Demo-Tiles");
+        }
+
+        private void GithubDemoToastHyperlinkButton_Click(object sender, RoutedEventArgs e)
+        {
+            NavigateToWebpage("https://github.com/DavidBurela/Win8Demo-Notifications");
+        }
+
         private void GithubPhoneSourceHyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
             NavigateToWebpage("https://github.com/DavidBurela/Windows8DeveloperCampPhoneApplication");

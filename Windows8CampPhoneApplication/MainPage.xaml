@@ -140,10 +140,18 @@
                         <HyperlinkButton HorizontalAlignment="Left" Click="DevCentreHyperlinkButton_Click" >msdn.microsoft.com/windows/apps</HyperlinkButton>
 
                         <TextBlock>SDK Samples (online gallery)</TextBlock>
-                        <HyperlinkButton HorizontalAlignment="Left" Click="OnlineSDKSamplesHyperlinkButton_Click" >code.msdn.microsoft.com/windowsapps/</HyperlinkButton>
+                        <HyperlinkButton HorizontalAlignment="Left" Click="OnlineSDKSamplesHyperlinkButton_Click" >code.msdn.microsoft.com/windowsapps</HyperlinkButton>
 
                         <TextBlock>SDK Samples (downloadable pack)</TextBlock>
                         <HyperlinkButton HorizontalAlignment="Left" Click="DownloadSDKSamplesHyperlinkButton_Click" >code.msdn.microsoft.com/windowsapps/...</HyperlinkButton>
+
+
+                        <TextBlock Style="{StaticResource PhoneTextLargeStyle}">Presentation code samples</TextBlock>
+                        <TextBlock>Application Tile updates</TextBlock>
+                        <HyperlinkButton HorizontalAlignment="Left" Click="GithubDemoTilesHyperlinkButton_Click" >github.com/DavidBurela/Win8Demo-Tiles</HyperlinkButton>
+
+                        <TextBlock>Toast notifications</TextBlock>
+                        <HyperlinkButton HorizontalAlignment="Left" Click="GithubDemoToastHyperlinkButton_Click" >github.com/DavidBurela/Win8Demo-Not...</HyperlinkButton>
 
 
                         <TextBlock>Source code for this windows phone application</TextBlock>
