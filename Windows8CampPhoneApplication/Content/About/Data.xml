@@ -19,7 +19,7 @@
   <!-- The AdditionalNotes attribute has no equivalent in the WMAppManifest.xml; you can only define its content here -->
   <!-- Explicitly set any of the attributes to an empty string to remove it (including its label) from the dialog -->
   <App Author="David Burela"
-       Version="1.2"
+       Version="1.3"
        Publisher=""
        AdditionalNotes="All copyright is held by their respective owners." />
   <Items>
