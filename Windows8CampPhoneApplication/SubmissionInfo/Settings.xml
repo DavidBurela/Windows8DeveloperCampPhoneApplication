@@ -1,6 +1,8 @@
 <MarketplaceDetails>
-  <SmallAppTile>logo_99.png</SmallAppTile>
+  <SmallAppTile>logo_300.png</SmallAppTile>
   <LargeAppTile>logo_173.png</LargeAppTile>
   <PCAppTile>logo_200.png</PCAppTile>
-  <ScreenShots>schedule.png;XDDN information.png;online resources.png;;;;;;</ScreenShots>
+  <ScreenShots>WVGA-schedule.png;WVGA-online resources.png;WVGA-XDDN information.png;;;;;;</ScreenShots>
+  <ScreenShotsWXGA>WXGA-schedule.png;WXGA-online resources.png;WXGA-XDDN information.png;;;;;;</ScreenShotsWXGA>
+  <ScreenShots720P>720-schedule.png;720-online resources.png;720-XDDN information.png;;;;;;</ScreenShots720P>
 </MarketplaceDetails>
