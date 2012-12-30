@@ -18,10 +18,9 @@
   <!-- The App element allows you to override the values that are extracted from the WMAppManifest.xml file automatically -->
   <!-- The AdditionalNotes attribute has no equivalent in the WMAppManifest.xml; you can only define its content here -->
   <!-- Explicitly set any of the attributes to an empty string to remove it (including its label) from the dialog -->
-  <App Author="David Burela"
-       Version="1.3"
-       Publisher=""
-       AdditionalNotes="All copyright is held by their respective owners." />
+  <App Author="[Your name here]"
+       Publisher="[Publisher]"       
+       AdditionalNotes="[Fill in additional info here]" />
   <Items>
     <!-- Create a MainItem entry to configure the front page -->
     <!-- The Titel attribute defines the title of the pivot item -->
@@ -31,7 +30,7 @@
     <MainItem Title="about"
               AppAuthorLabel="by"
               AppDescriptionLabel="Description:"
-              AppPublisherLabel=""
+              AppPublisherLabel="Publisher:"
               AppVersionLabel="Version:"
               AppAdditionalNotesLabel="Additional Notes:"
               AppReviewButtonContent="Review this app!"
@@ -41,18 +40,12 @@
         <!-- By using different protocols like http or mailto you can invoke the respective applications -->
         <!-- The Label attribute defines an additional label placed in front of the hyperlink -->
         <!-- Use this to provide contact/support details for your app -->
-        <Link NavigateUri="http://about.me/DavidBurela"
-              Content="about.me/DavidBurela"
-              Label="About me:" />
-        <!--<Link NavigateUri="http://DavidBurela.Wordpress.com"
-              Content="DavidBurela.Wordpress.com"
-              Label="Blog:" />-->
-        <Link NavigateUri="https://github.com/DavidBurela/Windows8DeveloperCampPhoneApplication"
-              Content="github.com/DavidBurela/Windows8DeveloperCampPhoneApplication"
-              Label="Source code:" />
-        <Link NavigateUri="mailto:David.Burela+Win8Camp@gmail.com"
-              Content="David.Burela+Win8Camp@gmail.com"
-              Label="Help:" />
+        <Link NavigateUri="http://www.example.com"
+              Content="http://www.example.com"
+              Label="Web:" />
+        <Link NavigateUri="mailto:support@example.com"
+              Content="support@example.com"
+              Label="Support:" />
       </Links>
     </MainItem>
     <!-- For each additional pivot item, add a separate Item entry. Ideas for items are: license, tutorial or help, version history, show room for other apps from you etc. -->
@@ -61,20 +54,8 @@
     <!-- Supported types are "text" and "xaml", where text is nicely formatted automatically, and XAML is handled by the built-in XamlReader -->
     <Item Title="history"
           Type="text">
-      1.2
-      - Added links to source code of demos done during presentation
-      
-      1.1
-      -Added additional links to XDDN user groups around Australia
-      -Added links to source code of the application
-
-      1.0
-      Initial public release.
-      Includes:
-      -Daily schedule
-      -Dates
-      -XDDN information
-      -Links to online resources to get started
+      1.0.0.0
+      This is the initial public version.      
     </Item>
   </Items>
 </About>
